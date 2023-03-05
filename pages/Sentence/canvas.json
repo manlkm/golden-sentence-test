@@ -56,7 +56,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Golden Sentence",
+              "text": "金句王",
               "key": "ll2wowyoyw",
               "isDeprecated": false,
               "rightColumn": 64,
