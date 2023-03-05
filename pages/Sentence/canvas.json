@@ -42,7 +42,7 @@
               "hideCard": false,
               "animateLoading": true,
               "overflow": "NONE",
-              "fontFamily": "Poppins",
+              "fontFamily": "Inter",
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
               "leftColumn": 0,
@@ -93,6 +93,7 @@
               "bottomRow": 79,
               "pageSize": 5,
               "parentRowSpace": 10,
+              "onPageChange": "{{GetSentenceList.run()}}",
               "type": "LIST_WIDGET_V2",
               "itemSpacing": 8,
               "hideCard": false,
@@ -101,7 +102,11 @@
               "animateLoading": true,
               "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"sentence_desc\"] )}}",
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onPageChange"
+                }
+              ],
               "dynamicBindingPathList": [
                 {
                   "key": "currentItemsView"
@@ -129,7 +134,7 @@
                 }
               ],
               "leftColumn": 0,
-              "serverSidePagination": true,
+              "serverSidePagination": false,
               "gridType": "vertical",
               "enhancements": true,
               "children": [
