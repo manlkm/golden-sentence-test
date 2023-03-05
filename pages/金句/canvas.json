@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Sentence",
-    "slug": "sentence",
+    "name": "金句",
+    "slug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -27,59 +27,6 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Text1",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 0,
-              "bottomRow": 5,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "Inter",
-              "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 0,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "金句王",
-              "key": "ll2wowyoyw",
-              "isDeprecated": false,
-              "rightColumn": 64,
-              "backgroundColor": "#93c5fd",
-              "disableLink": true,
-              "textAlign": "CENTER",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "fmb6oxxj9b",
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#fafafa",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 0,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 5,
-              "fontSize": "1.875rem",
-              "minDynamicHeight": 4
-            },
-            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "currentItemsView": "{{[]}}",
               "triggeredItemView": "{{{}}}",
@@ -89,8 +36,8 @@
               "isCanvas": true,
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 5,
-              "bottomRow": 74,
+              "topRow": 0,
+              "bottomRow": 68,
               "pageSize": 5,
               "parentRowSpace": 10,
               "onPageChange": "{{GetSentenceList.run()}}",
@@ -124,9 +71,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -142,7 +86,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 690,
+                  "bottomRow": 680,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -416,7 +360,7 @@
               "isLoading": false,
               "mainCanvasId": "iy00w4t3ep",
               "originalTopRow": 5,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "0.375rem",
               "originalBottomRow": 79,
               "additionalStaticProps": [
                 "level",
@@ -431,7 +375,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sentence_GetSentenceList",
+              "id": "金句_GetSentenceList",
               "name": "GetSentenceList",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
@@ -442,7 +386,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Sentence",
+        "id": "金句",
         "deleted": false,
         "policies": [],
         "userPermissions": []

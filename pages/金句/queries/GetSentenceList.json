@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Sentence",
+    "pageId": "金句",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -84,7 +84,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Sentence_GetSentenceList",
+  "id": "金句_GetSentenceList",
   "deleted": false,
   "gitSyncId": "640456bb212768755373adbf_64045c8d8a12fa7e07deba48"
 }
